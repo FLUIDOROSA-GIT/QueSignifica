@@ -1,0 +1,40 @@
+* {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.gradiente {
+    background: rgb(255,83,113);
+    background: linear-gradient(90deg, rgba(255,83,113,1) 14%, rgba(235,94,182,1) 33%, rgba(184,81,218,1) 65%, rgba(40,180,170,1) 86%);
+    color: white;
+    padding: 30px;
+}
+
+video {
+    position: fixed;
+     min-width: 100%;
+     min-height: 100%;
+
+     top: 50%;
+     left: 50%;
+
+     transform: translateX(-50%) translateY(-50%);
+
+     z-index: -1;
+}
+
+img {
+    position: fixed;
+     min-width: 100%;
+     min-height: 100%;
+
+     top: 50%;
+     left: 50%;
+
+     transform: translateX(-50%) translateY(-50%);
+
+     z-index: -1;
+}
+
+body {
+    margin: 0;
+}
